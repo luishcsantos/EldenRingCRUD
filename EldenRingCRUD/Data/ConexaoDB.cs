@@ -10,7 +10,7 @@ namespace EldenRingCRUD.Data
 {
     public class ConexaoDB
     {
-        private static string connectionString = "Server=localhost;port=3306;Database=eldenringdb;Uid=root;Pwd=LhS@159753;";
+        private static string connectionString = "Server=localhost;port=3306;Database=eldenringdb;Uid=root;Pwd=123456;";
 
         public static MySqlConnection ObterConexao()
         {
