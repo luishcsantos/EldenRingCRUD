@@ -3,9 +3,9 @@ Para criar o banco e a tabela utilize o código abaixo:
     create database eldenringdb;
     use eldenringdb;
     create table bosses (
-    	  id VARCHAR(100) PRIMARY KEY,
+    	id VARCHAR(100) PRIMARY KEY,
         name VARCHAR(100),
-    	  image TEXT,
+    	image TEXT,
         description TEXT,
         location VARCHAR(200),
         drops TEXT,
